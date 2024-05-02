@@ -1,0 +1,16 @@
+Package: flotmax
+Type: Package
+Title: Computing the maximum flow in a flow network, an implementation of Edmond-Karps and Floyd-Fulkerson algorithms
+Version: 1.0
+Date: 2024-03-28
+Author: Assmaa Alzamadi, Viviana Gavilanes, Noemie Turmel
+Maintainer: Noemie Turmel <noemie.turmel@ensiie.eu>
+Description: This package implements the Edmond-Karps and Floyd-Fulkerson algorithms in R and Rcpp for computing the maximum flow in a flow network. Additionally, it includes functionality to compare the computational complexity of these algorithms through simulations.
+License: GPL (>= 2)
+Imports: 
+  Rcpp (>= 1.0.12),
+  purrr(>= 1.0.2),
+Suggests : 
+  roxygen2
+LinkingTo: Rcpp
+RoxygenNote: 7.3.1
