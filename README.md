@@ -1,1 +1,1 @@
-
+This R package implements the Edmond-Karps and Floyd-Fulkerson algorithms in R and Rcpp for computing the maximum flow in a flow network. Additionally, it includes functionality to compare the computational complexity of these algorithms through simulations.
